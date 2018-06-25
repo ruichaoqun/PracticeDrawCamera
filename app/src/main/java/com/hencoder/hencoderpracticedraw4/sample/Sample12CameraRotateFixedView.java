@@ -48,7 +48,6 @@ public class Sample12CameraRotateFixedView extends View {
         int center1Y = point1.y + bitmapHeight / 2;
         int center2X = point2.x + bitmapWidth / 2;
         int center2Y = point2.y + bitmapHeight / 2;
-
         camera.save();
         matrix.reset();
         camera.rotateX(30);
